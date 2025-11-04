@@ -54,7 +54,7 @@ void thread_verde(void *p1, void *p2, void *p3)
         return;
     }
 
-    LOG_INF("Thread A (Verde) iniciada.");
+    LOG_INF("Thread A (Verde) iniciada e aguardando.");
 
     while (1)
     {
@@ -95,7 +95,7 @@ void thread_vermelho(void *p1, void *p2, void *p3)
         return; /* A Thread A já logou o erro se houver */
     }
 
-    LOG_INF("Thread B (Vermelho) iniciada e aguardando.");
+    LOG_INF("Thread B (Vermelho) iniciada.");
 
     while (1)
     {

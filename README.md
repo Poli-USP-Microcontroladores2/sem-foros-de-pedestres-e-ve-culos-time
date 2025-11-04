@@ -1,9 +1,9 @@
-# PSI-Microcontroladores2-Aula07
-Atividade: Semáforos de Pedestres e Veículos
+# Atividade dos semáforos de pedestres e veículos
 
-## Objetivo
-Desenvolver um sistema embarcado de controle de semáforos para pedestres e veículos, utilizando **threads** e **mutex**, e validar o funcionamento do código por meio de **testes utilizando o modelo V (testes unitários, de integração e de sistema)**.  
-Opcionalmente, alunos podem utilizar **IA generativa** para auxiliar na elaboração de trechos de código ou na geração de planos de teste, mas **a avaliação deve se concentrar na qualidade dos testes e na correta validação do sistema**.
+## Parte do Guilherme:
+Desenvolvi o semáforo de pedestres por partes para facilitar os testes de funcionamento.
+A primeira coisa que desenvolvi foi código responsável por acender os leds alternadamente entre vermelho e verde por 4 e 2 segundos, respectivamente.
+
 
 ## Trabalho em Dupla
 - A atividade deve ser realizada **em duplas**.
