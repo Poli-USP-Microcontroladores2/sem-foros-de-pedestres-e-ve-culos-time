@@ -1,12 +1,16 @@
 # Atividade dos semáforos de pedestres e veículos
 
-## Parte do Guilherme:
 ### 1.1 Requisitos do sistema:
+#### Requisitos gerais:
+O sistema de pedestres deve estar sincronizado com o de carros.
+#### Semáforo de pedestres:
 - O sistema deve controlar dois leds, led0(verde) e led2(vermelho).
 - O sistema deve alternar entre vermelho e verde continuamente com 4 segundos aceso em cada led.
 - O sistema deve possuir um modo noturno que ao ser ativado, acendera o led vermelho por 1 segundo a cada segundo.
 - O sistema deve suportar um botão de pedestres que, ao ser ativado enquanto o sinal estiver vermelho, acende o led verde e apaga o led vermelho.
 - O sistema deve utilizar logs para verificação do funcionamento
+#### Semáforo de carros:
+
 
 ### 1.2 Fase de testes correspondentes:
 
@@ -15,10 +19,12 @@
 
 
 ### 2.1 Arquitetura do sistema
+#### Semáforo de pedestres:
 - Thread_verde deve controlar o funcionamento do led verde normalmente, no modo noturno e ao pressionar o botão de pedestres.
 - Thread_vermelho deve controlar o funcionamento do led vermelho normalmente, no modo noturno e ao pressionar o botão de pedestres.
 - Main deve ser responsável pela configuração do botão de pedestres.
 - A ISR deve ser responsável por verificar se o botão foi pressionado.
+#### Semáforo de carros:
 
 ### 2.2 Testes de sistema integrado:
 
@@ -26,12 +32,13 @@
 
 
 ### 3.1 Projeto de componentes
-- Um jumper será necessário para ativar o botão ligando a porta do botão ao terra da FRDM.
+- Quatro jumpers serão necessários: um para conectar os terras das placas, outro para conectar os botões, um para pressionar os botões e outro para sincronização das placas.
 ### 3.2 Teste de integração
 
 
 
 ### 4.1 Implementação/codificação
+#### Semáforo de pedestres:
 #include <zephyr/kernel.h>
 #include <zephyr/device.h>
 #include <zephyr/drivers/gpio.h>
@@ -172,6 +179,7 @@ void main(void)
 }
 
 ### 4.2 Teste de unidade
+#### Semáforo de pedestres:
 - Teste do funcionamento dos leds:
 <img width="908" height="113" alt="image3" src="https://github.com/user-attachments/assets/7ea85437-1c5d-47f5-8664-38b292b2beb8" />
 
