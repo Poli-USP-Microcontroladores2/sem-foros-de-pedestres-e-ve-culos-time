@@ -181,16 +181,16 @@ void main(void)
 ### 4.2 Teste de unidade
 #### Semáforo de pedestres:
 - Teste do funcionamento dos leds:
-<img width="908" height="113" alt="image3" src="https://github.com/user-attachments/assets/7ea85437-1c5d-47f5-8664-38b292b2beb8" />
+<img width="890" height="107" alt="image1" src="https://github.com/user-attachments/assets/fdec272f-dc59-4649-bd4e-974267ca8fa1" />
 
 https://github.com/user-attachments/assets/e10793e0-84b4-4064-900d-72118fdb3aaa
 
 - Teste do funcionamento do modo noturno:
-<img width="896" height="132" alt="image1" src="https://github.com/user-attachments/assets/42bbc44a-00a6-4160-9516-307ac987c56f" />
+<img width="875" height="103" alt="image2" src="https://github.com/user-attachments/assets/bd180323-7b77-4d55-a7d7-caae7caca5c3" />
 
 https://github.com/user-attachments/assets/804ac90a-1270-451a-99e6-40a59235c3e1
 
 - Teste do funcionamento do botão de pedestres:
-<img width="890" height="129" alt="image2" src="https://github.com/user-attachments/assets/80be0bfb-9328-475b-bd2f-9cfa04637c8f" />
+<img width="869" height="103" alt="image3" src="https://github.com/user-attachments/assets/0fda4089-2515-4103-80d9-ff4eb8a0c281" />
 
 https://github.com/user-attachments/assets/879c80d3-79f9-479c-b4d3-5d8c186c942a
