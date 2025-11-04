@@ -1,8 +1,13 @@
 # Atividade dos semáforos de pedestres e veículos
 
 ## Parte do Guilherme:
+### Requisitos do sistema:
+Para que o sistema funcione corretamente é necessário que os leds pisquem alternadamente entre verde e vermelho por 4 e 2 segundos, respectivamente.
+Será necessário também um modo noturno que faça o led vermelho acender de 1 em 1 segundo.
+Outro recurso fundamental é o botão de pedestre que deverá acender o Led verde quando for pressionado e ignorá-lo se ja estiver verde.
+Além disso, também é de extrema relevância a sincronização do semáforo de pedestres e o de carros.
 Desenvolvi o semáforo de pedestres por partes para facilitar os testes de funcionamento.
-A primeira coisa que desenvolvi foi código responsável por acender os leds alternadamente entre vermelho e verde por 4 e 2 segundos, respectivamente.
+A primeira coisa que desenvolvi foi código responsável por acender os leds alternadamente entre verde e vermelho por 4 e 2 segundos, respectivamente.
 Abaixo estão os logs e video do funcionamento:
 
 https://github.com/user-attachments/assets/5c3b0fde-9ecb-440e-b60b-4d25283910c5
