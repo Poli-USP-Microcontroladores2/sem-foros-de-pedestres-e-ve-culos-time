@@ -3,8 +3,11 @@
 ## Parte do Guilherme:
 Desenvolvi o semáforo de pedestres por partes para facilitar os testes de funcionamento.
 A primeira coisa que desenvolvi foi código responsável por acender os leds alternadamente entre vermelho e verde por 4 e 2 segundos, respectivamente.
+Abaixo estão os logs e video do funcionamento:
+
 https://github.com/user-attachments/assets/5c3b0fde-9ecb-440e-b60b-4d25283910c5
 
+![Uploading image3.png…]()
 
 
 ## Trabalho em Dupla
