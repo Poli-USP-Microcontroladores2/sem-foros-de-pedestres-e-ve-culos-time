@@ -376,7 +376,10 @@ https://github.com/user-attachments/assets/879c80d3-79f9-479c-b4d3-5d8c186c942a
 - funcionamento do semáforo;
 
 
-https://github.com/user-attachments/assets/10a502eb-df4f-472e-a6d9-646160af7e32
+
+
+https://github.com/user-attachments/assets/d350267c-2cac-4d79-b845-ea66ffc21353
+
 
 
   
