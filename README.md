@@ -371,3 +371,18 @@ https://github.com/user-attachments/assets/804ac90a-1270-451a-99e6-40a59235c3e1
 <img width="869" height="103" alt="image3" src="https://github.com/user-attachments/assets/0fda4089-2515-4103-80d9-ff4eb8a0c281" />
 
 https://github.com/user-attachments/assets/879c80d3-79f9-479c-b4d3-5d8c186c942a
+
+#### Semáforo de pedestres:
+- funcionamento do semáforo;
+
+
+https://github.com/user-attachments/assets/10a502eb-df4f-472e-a6d9-646160af7e32
+
+
+  
+- funcionamento modo noturno:
+
+
+
+https://github.com/user-attachments/assets/cb822949-2e8d-4c5b-9294-8bb88fb9dbb4
+
