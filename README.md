@@ -177,4 +177,12 @@ void main(void)
 
 https://github.com/user-attachments/assets/e10793e0-84b4-4064-900d-72118fdb3aaa
 
+- Teste do funcionamento do modo noturno:
+<img width="896" height="132" alt="image1" src="https://github.com/user-attachments/assets/42bbc44a-00a6-4160-9516-307ac987c56f" />
 
+https://github.com/user-attachments/assets/804ac90a-1270-451a-99e6-40a59235c3e1
+
+- Teste do funcionamento do botão de pedestres:
+<img width="890" height="129" alt="image2" src="https://github.com/user-attachments/assets/80be0bfb-9328-475b-bd2f-9cfa04637c8f" />
+
+https://github.com/user-attachments/assets/879c80d3-79f9-479c-b4d3-5d8c186c942a
