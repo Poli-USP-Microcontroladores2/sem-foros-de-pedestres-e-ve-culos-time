@@ -34,8 +34,13 @@ O sistema de pedestres deve estar sincronizado com o de carros.
 ### 3.1 Projeto de componentes
 - Quatro jumpers serão necessários: um para conectar os terras das placas, outro para conectar os botões, um para pressionar os botões e outro para sincronização das placas.
 ### 3.2 Teste de integração
+- Teste da sincronização do botão de pedestres com os semáforos:
 
+https://github.com/user-attachments/assets/8970db8b-4cc3-4908-b54e-aa0fb874b5c5
 
+- Teste da sincronização dos semáforos:
+
+https://github.com/user-attachments/assets/3c78e3e5-cf35-48c7-a66d-0da6bc750feb
 
 ### 4.1 Implementação/codificação
 #### Semáforo de pedestres:
