@@ -370,7 +370,7 @@ https://github.com/user-attachments/assets/804ac90a-1270-451a-99e6-40a59235c3e1
 
 https://github.com/user-attachments/assets/879c80d3-79f9-479c-b4d3-5d8c186c942a
 
-#### Semáforo de pedestres:
+#### Semáforo de carros:
 - funcionamento do semáforo;
 
 
