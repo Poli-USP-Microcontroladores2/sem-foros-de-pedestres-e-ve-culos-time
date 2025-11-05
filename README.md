@@ -15,12 +15,13 @@ O sistema de pedestres deve estar sincronizado com o de carros.
 - o sistema deve possuir um modo noturno, de tal forma que, quando ativado, faz o semáforo piscar 2 segundos(1 aceso, 1 apagado).
 - o sistema deve suportar um botão de pedestre, que, quando ativado, automaticamente faz o semáforo ficar vermelho.
 - o sistema deve utilizar logs para verificar funcionamento.
-### 1.2 Fase de testes correspondentes:
+### 1.2 Teste de aceitação:
+- Funcionamento dos semáforos sincronizados e com todas as implementações:
 
+https://github.com/user-attachments/assets/924230dc-e3ef-42bf-a075-931eecf1e2e9
 
+- Teste do modo noturno compartilhado:
 
-
-do ciclo, retornando para thread verde(possui modo noturno que desabilita a thread)
 ### 2.1 Arquitetura do sistema
 #### Semáforo de pedestres:
 - Thread_verde deve controlar o funcionamento do led verde normalmente, no modo noturno e ao pressionar o botão de pedestres.
@@ -28,23 +29,20 @@ do ciclo, retornando para thread verde(possui modo noturno que desabilita a thre
 - Main deve ser responsável pela configuração do botão de pedestres.
 - A ISR deve ser responsável por verificar se o botão foi pressionado.
 #### Semáforo de carros:
-
-### 2.2 Testes de sistema integrado:
 - semáforo é utilizado para evitar condições de race condition.
 - função botao pressionado avisa threads quando botão for ativado.
 - thread verde inicia o ciclo, podendo ser interrompida caso botao pressionado, indo direto para vermelho, se não, vai pra amarelo(tem modo noturno, onde thread fica desabilitada)
 - thread amarela controla o led amarelo, podendo ser interrompida com a ativação do botão, indo para o vermelho de qualquer modo( o modo noturno funciona nessa thread).
 - thread vermelha controla o led vermelho, não pode ser interrompida, sendo a ultima parte do ciclo, retornando para verde9possui modo noturno que desabilita o funcionamento da thread).
 - main é responsável por configurar leds e botão, além de adquirir o estado do botão, para ser usado na função botao pressionado.
+### 2.2 Testes de sistema:
+- Teste da sincronização do botão de pedestres com os semáforos:
 
-
+https://github.com/user-attachments/assets/8970db8b-4cc3-4908-b54e-aa0fb874b5c5
 
 ### 3.1 Projeto de componentes
 - Quatro jumpers serão necessários: um para conectar os terras das placas, outro para conectar os botões, um para pressionar os botões e outro para sincronização das placas.
 ### 3.2 Teste de integração
-- Teste da sincronização do botão de pedestres com os semáforos:
-
-https://github.com/user-attachments/assets/8970db8b-4cc3-4908-b54e-aa0fb874b5c5
 
 - Teste da sincronização dos semáforos:
 
