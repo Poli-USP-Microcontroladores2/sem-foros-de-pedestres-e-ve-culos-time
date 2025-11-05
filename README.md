@@ -24,10 +24,12 @@ https://github.com/user-attachments/assets/924230dc-e3ef-42bf-a075-931eecf1e2e9
 
 ### 2.1 Arquitetura do sistema
 #### Semáforo de pedestres:
-- Thread_verde deve controlar o funcionamento do led verde normalmente, no modo noturno e ao pressionar o botão de pedestres.
-- Thread_vermelho deve controlar o funcionamento do led vermelho normalmente, no modo noturno e ao pressionar o botão de pedestres.
-- Main deve ser responsável pela configuração do botão de pedestres.
+- Thread_verde deve acender o led verde por 4 segundos durante o funcionamento normal e apagá-lo caso esteja no modo noturno.
+- Thread_vermelho deve acender o led vermelho por 4 segundos durante o funcionamento normal e acende-lo por 1 segundo a cada segundo caso esteja no modo noturno.
 - A ISR deve ser responsável por verificar se o botão foi pressionado.
+- O botão deve ser responsável por interromper a thread vermelha.
+- Os semáforos devem ser responsáveis por garantir a exclusão mutua e sincronizar o funcionamento das threads.
+- A main é responsável por configurar o botão.
 #### Semáforo de carros:
 - semáforo é utilizado para evitar condições de race condition.
 - função botao pressionado avisa threads quando botão for ativado.
