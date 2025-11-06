@@ -31,7 +31,7 @@ K_SEM_DEFINE(semaforo_verde, 0, 1);
 K_SEM_DEFINE(semaforo_botao, 0, 1);
 K_SEM_DEFINE(semaforo_vermelho, 1, 1);
 
-int MODO_NOTURNO = 0;
+int MODO_NOTURNO = 1;
 
 void botao_pressionado(const struct device *dev, struct gpio_callback *cb, uint32_t pins)
 {
