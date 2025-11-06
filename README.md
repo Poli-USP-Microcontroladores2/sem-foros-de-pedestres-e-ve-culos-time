@@ -20,8 +20,6 @@ O sistema de pedestres deve estar sincronizado com o de carros.
 
 https://github.com/user-attachments/assets/924230dc-e3ef-42bf-a075-931eecf1e2e9
 
-- Teste do modo noturno compartilhado:
-
 ### 2.1 Arquitetura do sistema
 #### Semáforo de pedestres:
 - Thread_verde deve acender o led verde por 4 segundos durante o funcionamento normal e apagá-lo caso esteja no modo noturno.
